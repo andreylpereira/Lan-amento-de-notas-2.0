@@ -1,0 +1,58 @@
+body {
+    background-image: url("foguete.jpg");
+    
+  }
+
+span > h1 > center {
+    background-color: rgb(235, 179, 106);
+    border: solid 3px rgb(196, 133, 51);
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 15%;
+    width: 30%;
+    
+    
+}
+
+span > h2 > center {
+    background-color: rgb(235, 179, 106);
+    border: solid 3px rgb(196, 133, 51);
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 30%;
+    width: 910px;
+
+}
+
+span > h4 > center {
+    background-color: rgb(235, 179, 106);
+    border: solid 3px rgb(196, 133, 51);
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 15%;
+    width: 25%;
+
+}
+
+span > h4 > center > strong {
+    color: red;
+}
+
+#tabela1 {
+    background-color: rgb(235, 179, 106);
+    border: solid 3px rgb(196, 133, 51);
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 48%;
+
+}
+
+#tabela2 {
+    background-color: rgb(235, 179, 106);
+    border: solid 3px rgb(196, 133, 51);
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 48%;
+    text-align: center;
+}
+

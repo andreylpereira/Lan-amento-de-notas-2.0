@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lançamento de Notas 2.0</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+  <span>
+    <h1>
+
+      <center>
+        LANÇAMENTO DE NOTAS 2.0
+      </center>
+
+    </h1>
+  </span>
+
+<br>
+
+  <span>
+    <h4>
+  
+      <center>
+        Insire o nome do aluno(a), notas e clique no botão <strong>Lançar Notas</strong>.
+      </center>
+  
+    </h4>
+  </span>
+
+  <form action="" id="tabela">
+  <table id="tabela1">
+      
+    <thead>
+      <tr>
+        <th>Aluno(a)</th>
+        <th>1º Bimestre</th>
+        <th>2º Bimestre</th>
+        <th>3º Bimestre</th>
+        <th>4º Bimestre</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><input type="text" placeholder="Nome" step="0.01" min="0" max="10" name="nome" id="nome"></td>
+        <td><input type="number" placeholder="Nota 1º Bimestre" step="0.01" min="0" max="10" name="numero" id="n1"></td>
+        <td><input type="number" placeholder="Nota 2º Bimestre" step="0.01" min="0" max="10" name="numero" id="n2"></td>
+        <td><input type="number" placeholder="Nota 3º Bimestre" step="0.01" min="0" max="10" name="numero" id="n3"></td>
+        <td><input type="number" placeholder="Nota 4º Bimestre" step="0.01" min="0" max="10" name="numero" id="n4"></td>
+        <td><button id="addNotasButton">Lançar Notas</button></td>
+      </tr>
+   </tbody>
+
+</table>
+</form>
+
+<br>
+<br>
+<br>
+
+<span>
+  <h2>
+    <center>
+      Notas Lançadas
+    </center>
+  </h2>
+</span>
+
+<table id="tabela2"></table>
+
+</body>
+
+<br>
+  <script src="script.js"></script>
+</html>
